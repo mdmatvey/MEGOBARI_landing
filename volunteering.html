@@ -13,11 +13,12 @@
         <header>
             <nav class="topnav" id="myTopnav">
                 <a href="./index.html" id="hidelogo" class="logo"><img src="./content/logo/namelogo.svg" alt="MEGOBARSI"></a>
-                <a href="./about.html" class="first-child active">О нас</a>
+                <a href="./about.html" class="first-child">О нас</a>
                 <a href="./ourtea.html">Наш Чай</a>
+                <a href="./volunteering.html" class="active">Волонтерство</a>
                 <a href="./feedback.html">Отзывы</a> 
                 <a href="./contacts.html" class="last-child">Контакты</a>
-                <a href="javascript:void(0);" class="icon" style="font-size:15px;" onclick="myFunction()">&#9776;</a>
+                <a href="javascript:void(0);" class="icon" style="font-size:15px;" onclick="extendNav()">&#9776;</a>
             </nav>
         </header> 
         <main>
@@ -107,195 +108,195 @@
             <section id="sthree">
                 <h4>Фотографии:</h4>
                 <div class="gallery">
-                    <div style="grid-area: a;">
-                        <img src="./content/gallery/1.jpg" alt="">
+                    <div style="grid-area: a;" onmouseenter="zoomIn(1)" onmouseleave="zoomOut(1)">
+                        <img src="./content/gallery/1.jpg" alt="" id="1">
                         <div class="image-overlay">
                             <div class="image-description" unselectable="on">
-                                Больше фотографий в нашем Instagram
+                                Больше фотографий в нашем <a href="https://www.instagram.com/megobari.tea/" class="instagram">Instagram</a>
                             </div>
                         </div>
                     </div>
-                    <div style="grid-area: b;">
-                        <img src="./content/gallery/2.jpg" alt="">
+                    <div style="grid-area: b;" onmouseenter="zoomIn(2)" onmouseleave="zoomOut(2)">
+                        <img src="./content/gallery/2.jpg" alt="" id="2">
                         <div class="image-overlay">
                             <div class="image-description" unselectable="on">
-                                Больше фотографий в нашем Instagram
+                                Больше фотографий в нашем <a href="https://www.instagram.com/megobari.tea/" class="instagram">Instagram</a>
                             </div>
                         </div>
                     </div>
-                    <div style="grid-area: c;">
-                        <img src="./content/gallery/3.jpg" alt="">
+                    <div style="grid-area: c;" onmouseenter="zoomIn(3)" onmouseleave="zoomOut(3)">
+                        <img src="./content/gallery/3.jpg" alt="" id="3">
                         <div class="image-overlay">
                             <div class="image-description" unselectable="on">
-                                Больше фотографий в нашем Instagram
+                                Больше фотографий в нашем <a href="https://www.instagram.com/megobari.tea/" class="instagram">Instagram</a>
                             </div>
                         </div>
                     </div>
-                    <div style="grid-area: d;">
-                        <img src="./content/gallery/4.jpg" alt="">
+                    <div style="grid-area: d;" onmouseenter="zoomIn(4)" onmouseleave="zoomOut(4)">
+                        <img src="./content/gallery/4.jpg" alt="" id="4">
                         <div class="image-overlay">
                             <div class="image-description" unselectable="on">
-                                Больше фотографий в нашем Instagram
+                                Больше фотографий в нашем <a href="https://www.instagram.com/megobari.tea/" class="instagram">Instagram</a>
                             </div>
                         </div>
                     </div>
-                    <div style="grid-area: e;">
-                        <img src="./content/gallery/5.jpg" alt="">
+                    <div style="grid-area: e;" onmouseenter="zoomIn(5)" onmouseleave="zoomOut(5)">
+                        <img src="./content/gallery/5.jpg" alt="" id="5">
                         <div class="image-overlay"> 
                             <div class="image-description" unselectable="on">
-                                Больше фотографий в нашем Instagram
+                                Больше фотографий в нашем <a href="https://www.instagram.com/megobari.tea/" class="instagram">Instagram</a>
                             </div>
                         </div>
                     </div>
-                    <div style="grid-area: f;">
-                        <img src="./content/gallery/6.jpg" alt="">
+                    <div style="grid-area: f;" onmouseenter="zoomIn(6)" onmouseleave="zoomOut(6)">
+                        <img src="./content/gallery/6.jpg" alt="" id="6">
                         <div class="image-overlay">
                             <div class="image-description" unselectable="on">
-                                Больше фотографий в нашем Instagram
+                                Больше фотографий в нашем <a href="https://www.instagram.com/megobari.tea/" class="instagram">Instagram</a>
                             </div>
                         </div>
                     </div>
-                    <div style="grid-area: g;">
-                        <img src="./content/gallery/7.jpg" alt="">
+                    <div style="grid-area: g;" onmouseenter="zoomIn(7)" onmouseleave="zoomOut(7)">
+                        <img src="./content/gallery/7.jpg" alt="" id="7">
                         <div class="image-overlay">
                             <div class="image-description" unselectable="on">
-                                Больше фотографий в нашем Instagram
+                                Больше фотографий в нашем <a href="https://www.instagram.com/megobari.tea/" class="instagram">Instagram</a>
                             </div>
                         </div>
                     </div>
-                    <div style="grid-area: h;">
-                        <img src="./content/gallery/8.jpg" alt="">
+                    <div style="grid-area: h;" onmouseenter="zoomIn(8)" onmouseleave="zoomOut(8)">
+                        <img src="./content/gallery/8.jpg" alt="" id="8">
                         <div class="image-overlay">
                             <div class="image-description" unselectable="on">
-                                Больше фотографий в нашем Instagram
+                                Больше фотографий в нашем <a href="https://www.instagram.com/megobari.tea/" class="instagram">Instagram</a>
                             </div>
                         </div>
                     </div>
-                    <div style="grid-area: i;">
-                        <img src="./content/gallery/9.jpg" alt="">
+                    <div style="grid-area: i;" onmouseenter="zoomIn(9)" onmouseleave="zoomOut(9)">
+                        <img src="./content/gallery/9.jpg" alt="" id="9">
                         <div class="image-overlay">
                             <div class="image-description" unselectable="on">
-                                Больше фотографий в нашем Instagram
+                                Больше фотографий в нашем <a href="https://www.instagram.com/megobari.tea/" class="instagram">Instagram</a>
                             </div>
                         </div>
                     </div>
-                    <div style="grid-area: j;">
-                        <img src="./content/gallery/10.jpg" alt="">
+                    <div style="grid-area: j;" onmouseenter="zoomIn(10)" onmouseleave="zoomOut(10)">
+                        <img src="./content/gallery/10.jpg" alt="" id="10">
                         <div class="image-overlay">
                             <div class="image-description" unselectable="on">
-                                Больше фотографий в нашем Instagram
+                                Больше фотографий в нашем <a href="https://www.instagram.com/megobari.tea/" class="instagram">Instagram</a>
                             </div>
                         </div>
                     </div>
-                    <div style="grid-area: k;">
-                        <img src="./content/gallery/11.jpg" alt="">
+                    <div style="grid-area: k;" onmouseenter="zoomIn(11)" onmouseleave="zoomOut(11)">
+                        <img src="./content/gallery/11.jpg" alt="" id="11">
                         <div class="image-overlay">
                             <div class="image-description" unselectable="on">
-                                Больше фотографий в нашем Instagram
+                                Больше фотографий в нашем <a href="https://www.instagram.com/megobari.tea/" class="instagram">Instagram</a>
                             </div>
                         </div>
                     </div>
-                    <div style="grid-area: l;">
-                        <img src="./content/gallery/12.jpg" alt="">
+                    <div style="grid-area: l;" onmouseenter="zoomIn(12)" onmouseleave="zoomOut(12)">
+                        <img src="./content/gallery/12.jpg" alt="" id="12">
                         <div class="image-overlay">
                             <div class="image-description" unselectable="on">
-                                Больше фотографий в нашем Instagram
+                                Больше фотографий в нашем <a href="https://www.instagram.com/megobari.tea/" class="instagram">Instagram</a>
                             </div>
                         </div>
                     </div>
-                    <div style="grid-area: m;">
-                        <img src="./content/gallery/13.jpg" alt="">
+                    <div style="grid-area: m;" onmouseenter="zoomIn(13)" onmouseleave="zoomOut(13)">
+                        <img src="./content/gallery/13.jpg" alt="" id="13">
                         <div class="image-overlay">
                             <div class="image-description" unselectable="on">
-                                Больше фотографий в нашем Instagram
+                                Больше фотографий в нашем <a href="https://www.instagram.com/megobari.tea/" class="instagram">Instagram</a>
                             </div>
                         </div>
                     </div>
-                    <div style="grid-area: n;">
-                        <img src="./content/gallery/14.jpg" alt="">
+                    <div style="grid-area: n;" onmouseenter="zoomIn(14)" onmouseleave="zoomOut(14)">
+                        <img src="./content/gallery/14.jpg" alt="" id="14">
                         <div class="image-overlay">
                             <div class="image-description" unselectable="on">
-                                Больше фотографий в нашем Instagram
+                                Больше фотографий в нашем <a href="https://www.instagram.com/megobari.tea/" class="instagram">Instagram</a>
                             </div>
                         </div>
                     </div>
-                    <div style="grid-area: o;">
-                        <img src="./content/gallery/15.jpg" alt="">
+                    <div style="grid-area: o;" onmouseenter="zoomIn(15)" onmouseleave="zoomOut(15)">
+                        <img src="./content/gallery/15.jpg" alt="" id="15">
                         <div class="image-overlay">
                             <div class="image-description" unselectable="on">
-                                Больше фотографий в нашем Instagram
+                                Больше фотографий в нашем <a href="https://www.instagram.com/megobari.tea/" class="instagram">Instagram</a>
                             </div>
                         </div>
                     </div>
-                    <div style="grid-area: p;">
-                        <img src="./content/gallery/16.jpg" alt="">
+                    <div style="grid-area: p;" onmouseenter="zoomIn(16)" onmouseleave="zoomOut(16)">
+                        <img src="./content/gallery/16.jpg" alt="" id="16">
                         <div class="image-overlay">
                             <div class="image-description" unselectable="on">
-                                Больше фотографий в нашем Instagram
+                                Больше фотографий в нашем <a href="https://www.instagram.com/megobari.tea/" class="instagram">Instagram</a>
                             </div>
                         </div>
                     </div>
-                    <div style="grid-area: q;">
-                        <img src="./content/gallery/17.jpg" alt="">
+                    <div style="grid-area: q;" onmouseenter="zoomIn(17)" onmouseleave="zoomOut(17)">
+                        <img src="./content/gallery/17.jpg" alt="" id="17">
                         <div class="image-overlay">
                             <div class="image-description" unselectable="on">
-                                Больше фотографий в нашем Instagram
+                                Больше фотографий в нашем <a href="https://www.instagram.com/megobari.tea/" class="instagram">Instagram</a>
                             </div>
                         </div>
                     </div>
-                    <div style="grid-area: r;">
-                        <img src="./content/gallery/18.jpg" alt="">
+                    <div style="grid-area: r;" onmouseenter="zoomIn(18)" onmouseleave="zoomOut(18)">
+                        <img src="./content/gallery/18.jpg" alt="" id="18">
                         <div class="image-overlay">
                             <div class="image-description" unselectable="on">
-                                Больше фотографий в нашем Instagram
+                                Больше фотографий в нашем <a href="https://www.instagram.com/megobari.tea/" class="instagram">Instagram</a>
                             </div>
                         </div>
                     </div>
-                    <div style="grid-area: s;">
-                        <img src="./content/gallery/19.jpg" alt="">
+                    <div style="grid-area: s;" onmouseenter="zoomIn(19)" onmouseleave="zoomOut(19)">
+                        <img src="./content/gallery/19.jpg" alt="" id="19">
                         <div class="image-overlay">
                             <div class="image-description" unselectable="on">
-                                Больше фотографий в нашем Instagram
+                                Больше фотографий в нашем <a href="https://www.instagram.com/megobari.tea/" class="instagram">Instagram</a>
                             </div>
                         </div>
                     </div>
-                    <div style="grid-area: t;">
-                        <img src="./content/gallery/20.jpg" alt="">
+                    <div style="grid-area: t;" onmouseenter="zoomIn(20)" onmouseleave="zoomOut(20)">
+                        <img src="./content/gallery/20.jpg" alt="" id="20">
                         <div class="image-overlay">
                             <div class="image-description" unselectable="on">
-                                Больше фотографий в нашем Instagram
+                                Больше фотографий в нашем <a href="https://www.instagram.com/megobari.tea/" class="instagram">Instagram</a>
                             </div>
                         </div>
                     </div>
-                    <div style="grid-area: u;">
-                        <img src="./content/gallery/21.jpg" alt="">
+                    <div style="grid-area: u;" onmouseenter="zoomIn(21)" onmouseleave="zoomOut(21)">
+                        <img src="./content/gallery/21.jpg" alt="" id="21">
                         <div class="image-overlay">
                             <div class="image-description" unselectable="on">
-                                Больше фотографий в нашем Instagram
+                                Больше фотографий в нашем <a href="https://www.instagram.com/megobari.tea/" class="instagram">Instagram</a>
                             </div>
                         </div>
                     </div>
-                    <div style="grid-area: v;">
-                        <img src="./content/gallery/22.jpg" alt="">
+                    <div style="grid-area: v;" onmouseenter="zoomIn(22)" onmouseleave="zoomOut(22)">
+                        <img src="./content/gallery/22.jpg" alt="" id="22">
                         <div class="image-overlay">
                             <div class="image-description" unselectable="on">
-                                Больше фотографий в нашем Instagram
+                                Больше фотографий в нашем <a href="https://www.instagram.com/megobari.tea/" class="instagram">Instagram</a>
                             </div>
                         </div>
                     </div>
-                    <div style="grid-area: w;">
-                        <img src="./content/gallery/23.jpg" alt="">
+                    <div style="grid-area: w;" onmouseenter="zoomIn(23)" onmouseleave="zoomOut(23)">
+                        <img src="./content/gallery/23.jpg" alt="" id="23">
                         <div class="image-overlay">
                             <div class="image-description" unselectable="on">
-                                Больше фотографий в нашем Instagram
+                                Больше фотографий в нашем <a href="https://www.instagram.com/megobari.tea/" class="instagram">Instagram</a>
                             </div>
                         </div>
                     </div>
-                    <div style="grid-area: x;">
-                        <img src="./content/gallery/24.jpg" alt="">
+                    <div style="grid-area: x;" onmouseenter="zoomIn(24)" onmouseleave="zoomOut(24)">
+                        <img src="./content/gallery/24.jpg" alt="" id="24">
                         <div class="image-overlay">
                             <div class="image-description" unselectable="on">
-                                Больше фотографий в нашем Instagram
+                                Больше фотографий в нашем <a href="https://www.instagram.com/megobari.tea/" class="instagram">Instagram</a>
                             </div>
                         </div>
                     </div>
@@ -337,21 +338,30 @@
             </address>
         </footer>
         <script>
-            var i = 1;
-            function myFunction() {
-                var x = document.getElementById("myTopnav");
+            const extendNav = () => {
+                let x = document.getElementById("myTopnav");
                 if (x.className === "topnav") {
                     x.className += " responsive";
                 } else {
                     x.className = "topnav";
                 }
-                var element = document.getElementById("hidelogo");
-                i++;
-                if (i % 2 === 0) {
-                    element.style.display = "none";
+
+                let element = document.getElementById("hidelogo");
+                if (element.style.left === "-400px") {
+                    element.style.left = "0px";
                 }   else {
-                    element.style.display = "block";
+                    element.style.left = "-400px";
                 }
+            }
+            
+            const zoomIn = (elementId) => {
+                element = document.getElementById(elementId);
+                element.style.transform = "scale(1.1)";
+            }
+
+            const zoomOut = (elementId) => {
+                element = document.getElementById(elementId);
+                element.style.transform = "";
             }
         </script>
     </body>
