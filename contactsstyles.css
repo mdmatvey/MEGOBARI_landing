@@ -168,7 +168,7 @@ textarea::-webkit-scrollbar-thumb {
     margin-bottom: 70px;
 }
 
-.btn button {
+.btn input {
     border: 2px solid #fff;
     border-radius: 10px;
     background-color: transparent;
@@ -182,7 +182,7 @@ textarea::-webkit-scrollbar-thumb {
     transition: 0.4s ease-in-out;
 }
 
-.btn button:hover {
+.btn input:hover {
     background-color: #fff;
     color: #475a51;
 }
