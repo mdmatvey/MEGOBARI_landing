@@ -19,8 +19,14 @@ section#sone {
     padding: 20rem 0;
 }
 
-section h4, section.plane p, section.plane span, section.conditions h5,
-section.conditions p, section#stwo ul, section.schedule h4, section.schedule p {
+section h4, 
+section.plane p, 
+section.plane span, 
+section.conditions h5,
+section.conditions p, 
+section#stwo ul, 
+section.schedule h4, 
+section.schedule p {
     margin-left: 100px;
 }
 
