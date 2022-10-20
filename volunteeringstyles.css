@@ -136,7 +136,7 @@ section#stwo ul li {
 }
 
 section#stwo ul li::before {
-    content: "⯁";  
+    content: "\2BC1";  
     padding-right: 10px;
     color: #58845c; 
     font-weight: bold;
@@ -400,5 +400,11 @@ a.instagram {
         -webkit-background-size: 400%;
         -moz-background-size: 400%;
         -o-background-size: 400%;
+    }
+}
+
+@media screen and (max-width: 376px) {
+    section h4 {
+        font-size: calc(12px + 8vw);
     }
 }
