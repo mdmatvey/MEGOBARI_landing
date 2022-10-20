@@ -385,8 +385,3 @@ address p {
 address img {
     margin-bottom: 30px;
 }
-
-address .phone-number {
-    text-decoration: none; 
-    color: #fff;
-}

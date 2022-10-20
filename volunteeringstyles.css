@@ -136,7 +136,7 @@ section#stwo ul li {
 }
 
 section#stwo ul li::before {
-    content: "\2BC0";  
+    content: "\25C6";  
     padding-right: 10px;
     color: #58845c; 
     font-weight: bold;
